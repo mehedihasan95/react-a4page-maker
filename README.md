@@ -54,3 +54,7 @@ The `A4ContentProvider` component accepts the following props:
 ## Summary
 
 The React A4 Page Maker provides an easy-to-use `A4ContentProvider` component that automatically handles A4 formatting for any content you wish to print. With customizable props like `printable` and `removeFooter`, you have the flexibility to control the print layout according to your needs. This library is an essential tool for any React application that requires document generation and printing capabilities.
+
+## Preview
+
+![mehedi_hasan_banner](https://i.ibb.co.com/s9JsmxP/react-a4page-maker-preview.png)
