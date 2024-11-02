@@ -1,0 +1,50 @@
+node_modules# Dependencies
+node_modules/
+src/components
+
+*.log
+*.lock
+
+# Build outputs
+dist/
+build/
+lib/
+
+# Temporary files
+.temp/
+.cache/
+coverage/
+*.tmp
+*.bak
+
+# Environment variables
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Test output
+test-results/
+
+# Ignore Rollup config file
+rollup.config.js
+
+# Yarn and npm specific
+.yarn/
+.pnp.*
+.npmrc
+
+# Ignore package-lock.json or yarn.lock if not using a lockfile
+# Uncomment the line below if you prefer not to push the lock file
+# package-lock.json
+# yarn.lock
