@@ -42,8 +42,5 @@
     "tslib": "^2.8.1",
     "typescript": "^5.6.3"
   },
-  "dependencies": {
-    "rollup-plugin-postcss": "^4.0.2"
-  },
   "sideEffects": false
 }
