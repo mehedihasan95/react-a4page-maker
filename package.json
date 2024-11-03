@@ -1,6 +1,6 @@
 {
   "name": "react-a4page-maker",
-  "version": "7.1.0",
+  "version": "7.1.1",
   "description": "A React component library for generating and printing A4 pages. Easily manage printable content.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
