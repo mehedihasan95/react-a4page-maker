@@ -11,7 +11,13 @@ content to fit A4 page dimensions.
 Install the package with npm:
 
 ```bash
-npm install react-a4page-maker@latest
+npm i react-a4page-maker
+```
+
+Or, with yarn:
+
+```bash
+yarn add react-a4page-maker
 ```
 
 ## 🔨 Usage
