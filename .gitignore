@@ -1,50 +1,44 @@
-node_modules# Dependencies
+# Node
 node_modules/
-src/components
+npm-debug.log
+yarn-error.log
 
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+logs
 *.log
-*.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
-# Build outputs
-dist/
-build/
-lib/
+# Compiled output
+dist
+tmp
+out-tsc
+bazel-out
 
-# Temporary files
-.temp/
-.cache/
-coverage/
-*.tmp
-*.bak
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
 
-# Environment variables
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Environment
 .env
 .env.*
 
-# OS generated files
+# Misc
 .DS_Store
 Thumbs.db
-
-# IDE specific files
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-
-# Test output
-test-results/
-
-# Ignore Rollup config file
-rollup.config.js
-
-# Yarn and npm specific
-.yarn/
-.pnp.*
-.npmrc
-
-# Ignore package-lock.json or yarn.lock if not using a lockfile
-# Uncomment the line below if you prefer not to push the lock file
-# package-lock.json
-# yarn.lock

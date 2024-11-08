@@ -6,6 +6,14 @@ applications. Whether you are generating invoices, reports, or
 certificates, this library simplifies the process of formatting
 content to fit A4 page dimensions.
 
+## Requirements
+
+This library requires the following versions of React and Node.js:
+
+- **REACT JS**: `>=16.8.0`
+- **NEXT JS**: `>=12.0.0`
+- **NODE JS**: `>=12`
+
 ## 📦 Installation
 
 Install the package with npm:
@@ -41,6 +49,7 @@ const Documents: React.FC = () => {
         certificates, this library simplifies the process of formatting content
         to fit A4 page dimensions.
       </p>
+      {/* More content Here...*/}
     </A4ContentProvider>
   );
 };

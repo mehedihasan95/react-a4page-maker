@@ -2,12 +2,18 @@
   "name": "react-a4page-maker",
   "version": "8.1.1",
   "description": "A React component library for generating and printing A4 pages. Easily manage printable content.",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "rollup": "rollup -c --bundleConfigAsCjs"
+    "clean": "rimraf dist",
+    "build": "npm run clean && rollup -c",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -21,22 +27,29 @@
     "react-a4page-maker"
   ],
   "author": "Mehedi Hasan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mehedihasan95/react-a4page-maker/issues"
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
   },
-  "homepage": "https://github.com/mehedihasan95/react-a4page-maker#readme",
   "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": ">=16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
+    }
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.25.9",
+    "@babel/preset-typescript": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.1",
-    "@types/react": "^18.3.12",
-    "rollup": "^4.24.3",
+    "@types/react": ">=16.8.0",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.24.4",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.8.1",
